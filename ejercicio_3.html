@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Pablo Lienlaf Sepúlveda">
+  <title>Ejercicio 3 Flexbox</title>
+  <style media="screen" type="text/css">
+   *{
+      box-sizing: border-box;
+      font-family: monospace;
+      font-size: 1.05rem;
+      font-weight: bold;
+   }
+   body {
+      margin: 0;
+      padding: 0;
+   }
+   .container {
+      height: 100vh;
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+   }
+   .navigation {
+     height: 90px;
+     width: 90%;
+     border: 1px solid gray;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+   }
+    i {
+      color: #ff6b1c;
+      padding: 0 5%;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+    li {
+      list-style: none;
+      padding: 1rem;
+    }
+    .menu {
+      display: flex;
+      flex-direction: row;
+      padding: 0 5%;
+    }
+ </style>
+ <script src="https://kit.fontawesome.com/05cef8c08e.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <nav class="navigation">
+    <i class="fas fa-bomb fa-3x"></i>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Entrevistas</a></li>
+        <li><a href="#">Música</a></li>
+        <li><a href="#">Tendencias</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</body>
+</html>

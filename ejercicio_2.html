@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Pablo Lienlaf Sepúlveda">
+  <title>Ejercicio 2 Flexbox</title>
+  <style media="screen" type="text/css">
+   *{
+      box-sizing: border-box;
+   }
+   body {
+      margin: 0;
+      padding: 0;
+   }
+   .container {
+      height: 100vh;
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+   }
+    .input {
+      border: 1px solid gray;
+      flex-basis: 50vw;
+      padding: 1rem;
+      font-family: monospace;
+      font-size: 1.5rem;
+    }
+    .button {
+      background-color: #57CAF9;
+      border: 1px solid gray;
+      font-family: monospace;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #FFFFFF;
+      padding: 1rem 2rem;
+    }
+    button:hover{
+      background-color: #6ACEF7;
+    }
+    button:focus {
+      background-color: #33BBF2;
+    }
+ </style>
+
+</head>
+<body>
+  <div class="container">
+    <input type="text" name="" value="" class="input">
+    <button type="button" name="button" class="button">Buscar</button>
+  </div>
+
+</body>
+</html>

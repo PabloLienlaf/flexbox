@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Pablo Lienlaf Sepúlveda">
+  <title>Ejercicio 4 Flexbox</title>
+  <style media="screen" type="text/css">
+   *{
+      box-sizing: border-box;
+      font-family: monospace;
+      font-size: 1.05rem;
+      font-weight: bold;
+   }
+   body {
+      margin: 0;
+      padding: 0;
+   }
+   .container {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+   }
+   .row {
+      width: 510px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+   }
+   .hashtag {
+      background-color: #FC739F;
+      color: white;
+      margin: 10px;
+      flex-basis: 150px;
+      padding: 2%;
+      text-align: center;
+   }
+ </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="hashtag">#instaday</div>
+      <div class="hashtag">#gooday</div>
+      <div class="hashtag">#beautyplace</div>
+      <div class="hashtag">#friends</div>
+      <div class="hashtag">#weekend</div>
+      <div class="hashtag">#sun</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

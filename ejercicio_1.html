@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Pablo Lienlaf Sepúlveda">
+  <title>Ejercicio 1 Flexbox</title>
+  <style media="screen" type="text/css">
+   *{
+      box-sizing: border-box;
+   }
+   body {
+      margin: 0;
+      padding: 0;
+   }
+   .container {
+      height: 100vh;
+      width: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .button {
+      background-color: #80F4E1;
+      border: 0px;
+      font-family: monospace;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #FFFFFF;
+      padding: 1rem 2rem;
+   }
+   button:hover {
+     background-color: #ACF2E7;
+   }
+   button:focus {
+     background-color: #78DECD;
+   }
+ </style>
+
+</head>
+<body>
+  <div class="container">
+    <button type="button" name="button" class="button">Haz click</button>
+  </div>
+
+</body>
+</html>
